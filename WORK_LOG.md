@@ -1,9 +1,10 @@
 Name: YOUR NAME HERE
 
-| Date    |  Time  |                                     Update |
-|:--------|:------:|-------------------------------------------:|
-| April 5 | 9-10pm | I tried to write abstract, efficient code. |
-|         |        |                                            |
+| Date   |     Time     |                                                                                                                                                                                                                                                                                                                                Update |
+|:-------|:------------:|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| Oct 29 | 12:45-1:45pm |                                                                                                                                                                    In class we discussed creating a table with the hash functions. In the case of collisions, we would linear search through the objects that shared a hash function. |
+| Oct 29 | 4:45-5:15pm  | I considered what we talked about in class a bit: we want to divide by some number p so that our hash map is not massive. This means a slightly smaller value of p. But we also don't want p so small that the linear search takes too long. I feel like a good mid-ground is where each row in the table has around 5-10 collisions. |
+| Oct 31 |    11-12     |                                                                                                                                                                                                                                                      Started to try and read in my data and figured out how the Buffer Reader works.  |
 
 
 To add a new row to the table, click into a cell and then hit shift-enter.
