@@ -35,6 +35,7 @@ public class FinderTester {
     @Test
     @Timeout(value = 2000, unit = TimeUnit.MILLISECONDS)
     public void testProducts() {
+        // Can change to 4s if needed
         setTestData("UPC", 0, 2);
         runTest();
     }

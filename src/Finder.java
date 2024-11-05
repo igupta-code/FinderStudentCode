@@ -14,6 +14,7 @@ import java.util.Arrays;
 public class Finder {
 
     private static final String INVALID = "INVALID KEY";
+    private HashMap hash = new HashMap();
 
     public Finder() {}
 
@@ -23,6 +24,7 @@ public class Finder {
         line = read.split(",", 4);
         // You will get ur key with line[keyCol] and
         while(line != null){
+            hash.add("key", "value");
             // keep reading
         }
 
