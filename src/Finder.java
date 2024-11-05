@@ -14,8 +14,6 @@ import java.util.Arrays;
 public class Finder {
 
     private static final String INVALID = "INVALID KEY";
-    private static final int p = 249998741;
-    int[] hashMap = new int[p];
 
     public Finder() {}
 

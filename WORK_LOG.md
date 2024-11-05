@@ -6,6 +6,7 @@ Name: YOUR NAME HERE
 | Oct 29 |  4:45-5:15pm  | I considered what we talked about in class a bit: we want to divide by some number p so that our hash map is not massive. This means a slightly smaller value of p. But we also don't want p so small that the linear search takes too long. I feel like a good mid-ground is where each row in the table has around 5-10 collisions. |
 | Oct 31 |     11-12     |                                                                                                                                                                                                                                                       Started to try and read in my data and figured out how the Buffer Reader works. |
 | Nov 1  | 11:45-12:15pm |                                                     I thought about how I was going to set up my hash map and got stuck on how to store the keys and values. Some poeple in class were creating objects to store into the map, but that didn't seem super elegant. I couldn't really come up with a better approach than that though. |
+| Nov 4  |   8:45-9:30   |                                                                                                    I created my hashMap class, layed out the basic structure(ie variables and function headers). I filled out some functions but am having trouble with the contructor / fitting it in with how I am reading in data from the files.  |
 
 
 To add a new row to the table, click into a cell and then hit shift-enter.
