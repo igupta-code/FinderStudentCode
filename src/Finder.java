@@ -13,25 +13,28 @@ import java.util.Arrays;
 
 public class Finder {
 
-    private static final String INVALID = "INVALID KEY";
+    public static final String INVALID = "INVALID KEY";
     private HashMap hash = new HashMap();
 
     public Finder() {}
 
     public void buildTable(BufferedReader br, int keyCol, int valCol) throws IOException {
-        String[] line = new String[1];
-        String read  = br.readLine();
-        line = read.split(",", 4);
-        // You will get ur key with line[keyCol] and
+        // Read in data line by line
+        String line = br.readLine();
+        String[] toAdd;
+        // Until the end of the file, keep reading
         while(line != null){
-            hash.add("key", "value");
-            // keep reading
+            // Split the data so you can enter it into the hash table
+            toAdd = line.split(",", 4);
+            hash.add(toAdd[keyCol], toAdd[valCol]);
+            // Move to next line
+            line = br.readLine();
         }
-
         br.close();
     }
 
     public String query(String key){
-        return INVALID;
+        // Return the value corresponding to the key
+        return hash.get(key);
     }
 }
